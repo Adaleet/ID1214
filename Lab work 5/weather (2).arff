@@ -1,0 +1,24 @@
+@RELATION weather
+
+@ATTRIBUTE condition {Cloudy,Rainy,Sunny}
+@ATTRIBUTE temperature NUMERIC
+@ATTRIBUTE do_we_go {No,Yes}
+@ATTRIBUTE windy {False,True}
+@ATTRIBUTE humidity NUMERIC
+
+@DATA
+Sunny,90,Yes,False,85
+Rainy,85,Yes,True,80
+Sunny,60,No,True,60
+Cloudy,95,Yes,False,88
+Cloudy,55,No,True,50
+Sunny,92,Yes,False,90
+Rainy,70,No,True,65
+Rainy,88,Yes,False,82
+Sunny,68,No,False,60
+Rainy,58,No,True,55
+Cloudy,75,Yes,True,75
+Rainy,50,Yes,False,50
+Cloudy,78,No,True,70
+Sunny,45,No,False,45
+
